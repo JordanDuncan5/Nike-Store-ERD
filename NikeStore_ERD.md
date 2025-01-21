@@ -16,7 +16,7 @@ erDiagram
     Customer{
         string CustomerID PK, FK
         string Name
-        float PhoneNumber FK
+        string PhoneNumber FK
         string Email FK
         address Address FK
         int Age FK
@@ -26,13 +26,13 @@ erDiagram
     Sale{
         string PriceOptimization
         string PersonalizedRecommendations
-        int ProductCost
+        float ProductCost
         int Orders
     }
     
     Inventory{
         int StockLevel
-        string SalesHistory 
+        float SalesHistory 
         string MarketTrends
         float ProductPerformance
     }
