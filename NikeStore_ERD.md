@@ -5,7 +5,7 @@ erDiagram
 "Nike Entity Relationship Diagram"
 
     Product ||--o{ Customer :"Take customer information"
-    Product ||--o{ Inventory :"Take note of inventory you picked up"
+    Product ||--o{ Inventory :"Keep track of stock level"
     Product{
         int ProductID PK
         string ShoeSize FK
@@ -31,7 +31,7 @@ erDiagram
     }
     
     Inventory{
-        int StockLevel
+        int StockLevel FK
         float SalesHistory 
         string MarketTrends
         float ProductPerformance
