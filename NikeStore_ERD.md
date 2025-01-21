@@ -23,7 +23,6 @@ erDiagram
         string customer segementation
         string personalized recommendations
         float product cost
-
     }
     
     Inventory{
