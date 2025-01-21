@@ -5,7 +5,7 @@ erDiagram
 "Nike Entity Relationship Diagram"
 
     Product ||--o{ Customer :"take customer information"
-    Product ||--o{ Inventory :"Adjust inventory after taking product"
+    Product ||--o{ Inventory :"Take note of inventory you picked up"
     Product{
         string NikePegasus
         string NikeDunkLowRetro
