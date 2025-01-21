@@ -2,7 +2,7 @@
 
 erDiagram
 
-title "Nike Entity Relationship Diagram"
+"Nike Entity Relationship Diagram"
 
     Product ||--o{ Customer :next
     Product{
