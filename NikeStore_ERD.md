@@ -6,29 +6,30 @@ erDiagram
 
     Product ||--o{ Customer :next
     Product{
-        string nike-pegasus
-        string nike-dunk-low-retro
-        string nike-lunar-roam
-        string nike-vapor-edge-speed
+        string NikePegasus
+        string NikeDunkLowRetro
+        string NikeLunarRoam
+        string NikeVaporEdgeSpeed
     }
     Customer ||--o{ Sale :next
     Customer{
-        string marketing-strategies
-        string personalized-service
-        string optimize-customer-experience
+        string customerID
+        string customerName
+        float customerPhoneNumber
+        address customerAddress
     }
     Sale ||--o{ Inventory :next
     Sale{
-        string product-performance-analysis
-        string price-optimization
-        string customer-segementation
-        string personalized-recommendations
-        float product-cost
+        float productPerformance
+        string priceOptimization
+        string personalizedRecommendations
+        float productCost
     }
     
     Inventory{
-        string inventory-management-software
-        string stock-levels
+        float stockLevel
+        string salesHistory
+        string marketTrends
     }
 
 ```
