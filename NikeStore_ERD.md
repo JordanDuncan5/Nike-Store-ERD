@@ -18,8 +18,8 @@ erDiagram
     }
     Sale ||--o{ Inventory :next
     Sale{
-        string product performance-analysis
-        string price optimization
+        string product-performance-analysis
+        string price-optimization
         string customer-segementation
         string personalized-recommendations
         float product-cost
