@@ -10,13 +10,13 @@ erDiagram
         string name
         string name
     }
-    Customer ||--o{ Sale :next}
+    Customer ||--o{ Sale :next
     Customer{
         string marketing strategies
         string personalized service
         string optimize customer experience
     }
-    Sale ||--o{ Inventory :next}
+    Sale ||--o{ Inventory :next
     Sale{
         string product performance analysis
         string price optimization
@@ -27,7 +27,7 @@ erDiagram
     
     Inventory{
         string inventory management software
-        string stock levels
+        string stock-levels
     }
 
 ```
