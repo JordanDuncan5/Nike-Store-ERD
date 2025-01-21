@@ -4,20 +4,20 @@ Nike Entity Relationship Diagram
 ---
 erDiagram
 
-    Product{
+    "Product"{
         string name
         string name
         string name
         string name
     }
     
-    Customer{
+    "Customer"{
         string marketing strategies
         string personalized service
         string optimize customer experience
     }
     
-    Sale{
+    "Sale"{
         string product performance analysis
         string price optimization
         string customer segementation
@@ -25,7 +25,7 @@ erDiagram
         float product cost
     }
     
-    Inventory{
+    "Inventory"{
         string inventory management software
         string stock levels
     }
