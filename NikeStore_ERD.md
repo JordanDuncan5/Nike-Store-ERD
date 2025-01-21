@@ -1,10 +1,8 @@
 ```mermaid
----
-title Nike Entity Relationship Diagram
----
+
 erDiagram
 
-
+title "Nike Entity Relationship Diagram"
 
     Product ||--o{ Customer :next
     Product{
