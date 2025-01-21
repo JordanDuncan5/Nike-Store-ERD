@@ -5,6 +5,7 @@ erDiagram
 "Nike Entity Relationship Diagram"
 
     Product ||--o{ Customer :"take customer information"
+    Product ||--o{ Inventory :"Adjust inventory after taking product"
     Product{
         string NikePegasus
         string NikeDunkLowRetro
@@ -21,7 +22,6 @@ erDiagram
         address Address
     }
     
-    Sale ||--o{ Inventory :"check inventory after sale"
     Sale{
         float ProductPerformance
         string PriceOptimization
