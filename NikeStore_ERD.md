@@ -31,7 +31,7 @@ erDiagram
     }
     
     Inventory{
-        int StockLevel PK
+        int StockLevel
         string SalesHistory 
         string MarketTrends
         float ProductPerformance
