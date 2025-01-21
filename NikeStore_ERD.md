@@ -7,14 +7,14 @@ erDiagram
     Product ||--o{ Customer :"Take customer information"
     Product ||--o{ Inventory :"Take note of inventory you picked up"
     Product{
-        string ProductID PK
+        int ProductID PK
         string ShoeSize FK
         string ShoeColor FK
     }
     
     Customer ||--o{ Sale :"Sell item"
     Customer{
-        string CustomerID PK, FK
+        int CustomerID PK, FK
         string Name
         string PhoneNumber FK
         string Email FK
