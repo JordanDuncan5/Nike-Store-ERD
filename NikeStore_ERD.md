@@ -22,6 +22,7 @@ erDiagram
         address Address
     }
     
+    Sale ||--o{ Inventory :"Adjust inventory after sale"
     Sale{
         float ProductPerformance
         string PriceOptimization
