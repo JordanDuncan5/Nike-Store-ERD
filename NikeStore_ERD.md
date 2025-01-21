@@ -4,15 +4,13 @@ erDiagram
 
 "Nike Entity Relationship Diagram"
 
-    Product ||--o{ Sale :take customer information
-    Product ||--o{ Inventory :Check inventory after sale
+    Product ||--o{ Customer :take customer information
     Product{
         string NikePegasus
         string NikeDunkLowRetro
         string NikeLunarRoam
         string NikeVaporEdgeSpeed
     }
-    
     Customer ||--o{ Sale :sell item
     Customer{
         string CustomerID
@@ -21,7 +19,7 @@ erDiagram
         string Email
         address Address
     }
-    
+    Sale ||--o{ Inventory :check inventory after sale
     Sale{
         float ProductPerformance
         string PriceOptimization
