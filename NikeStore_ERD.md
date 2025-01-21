@@ -5,10 +5,10 @@ Nike Entity Relationship Diagram
 erDiagram
     Product ||--o{ Customer :next
     Product{
-        string name
-        string name
-        string name
-        string name
+        string nike-pegasus
+        string nike-dunk-low-retro
+        string nike-lunar-roam
+        string nike-vapor-edge-speed
     }
     Customer ||--o{ Sale :next
     Customer{
