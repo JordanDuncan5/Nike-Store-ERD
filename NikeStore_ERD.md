@@ -27,7 +27,7 @@ erDiagram
     
     Inventory{
         string inventory management software
-        string stock levels 
+        string stock levels
     }
 
 ```
